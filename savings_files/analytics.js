@@ -1,0 +1,1 @@
+define(["components/web/utils/responsiveWatch"],function(a){"use strict";function b(a){return e?e[a]:null}function c(a){a&&"object"==typeof a&&(window.pageDetails=$.extend({},e,a))}var d=a.getScreenLayout(),e=$.extend({},window.pageDetails,{siteExperience:d});return{track:c,get:b}});/* Version:19.0 16815c55e*/
